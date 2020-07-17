@@ -1,0 +1,46 @@
+* {
+    font-family: "Yandex Sans Text", sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 0 40px;
+    padding: 0;
+}
+
+.form_title {
+    font-size: 40px;
+}
+
+.form_input_,
+.form_input_blue,
+.form_input_gray,
+.form_input_red,
+.form_input_yellow {
+    padding: 0 0 0 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.form_input_blue {
+    border: 3px solid #5155E5;
+    outline: none;
+}
+
+.form_input_yellow {
+    border: 3px solid #ECE51C;
+    outline: none;
+}
+
+.form_input_red {
+    border: 3px solid #F00D1E;
+    outline: none;
+}
+
+.form_input_gray {
+    border: 3px solid #ABACA5;
+    outline: none;
+}
